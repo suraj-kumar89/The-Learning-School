@@ -1,0 +1,73 @@
+export default function WhyTEF() {
+  const features = [
+    {
+      icon: "/whyTEF/icon1.svg",
+      text: "120-Day structured roadmap to become TEF-ready",
+    },
+    {
+      icon: "/whyTEF/icon2.svg",
+      text: "TEF-focused curriculum. Not general French.",
+    },
+    {
+      icon: "/whyTEF/icon3.svg",
+      text: "Clear understanding of the scoring system and exam pattern",
+    },
+    {
+      icon: "/whyTEF/icon4.svg",
+      text: "Level-based batches so you don’t waste time",
+    },
+    {
+      icon: "/whyTEF/icon5.svg",
+      text: "Flexible weekday and weekend options",
+    },
+    {
+      icon: "/whyTEF/icon6.svg",
+      text: "Live classes with real speaking correction",
+    },
+    {
+      icon: "/whyTEF/icon7.svg",
+      text: "Certified trainers with 15+ years of experience",
+    },
+  ];
+
+  return (
+    <section className="w-full flex justify-center py-16 md:py-24">
+
+      {/* CONTAINER */}
+      <div className="w-full max-w-[1440px] px-4 sm:px-8 lg:px-[10rem] flex flex-col items-center gap-12">
+
+        {/* HEADING */}
+        <h2 className="font-display text-black text-center font-bold text-[2rem] md:text-[2.5rem] lg:text-[3rem] leading-[3rem] md:leading-[3.5rem] lg:leading-[3.75rem]">
+          Why TEF With TLS
+        </h2>
+
+        {/* CARDS WRAPPER — GRID FIX */}
+        <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-y-10 gap-x-7 w-full">
+
+          {features.map((item, index) => (
+            <div
+              key={index}
+              className="flex flex-col items-center text-center gap-4"
+            >
+              {/* ICON BOX */}
+              <div className="flex items-center justify-center w-20 h-20 rounded-xl bg-[#F2EEDB]">
+                <img
+                  src={item.icon}
+                  alt="feature icon"
+                  className="w-[4rem] h-[4rem] flex-shrink-0 aspect-square"
+                />
+              </div>
+
+              {/* TEXT */}
+              <p className="font-display text-[#464646] text-[0.875rem] sm:text-[1rem] md:text-[1rem] lg:text-[1rem] font-normal leading-[1.4rem] md:leading-[1.6rem] lg:leading-[1.71875rem]">
+                {item.text}
+              </p>
+            </div>
+          ))}
+
+        </div>
+
+      </div>
+    </section>
+  );
+}
