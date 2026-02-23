@@ -2,7 +2,7 @@
 
 export default function WhatsAppButton() {
   return (
-    <div className="fixed bottom-6 right-6 z-[9999] flex items-center justify-center">
+     <div className="fixed bottom-24 sm:bottom-6 right-6 z-[9999] flex items-center justify-center">
       {/* Wave */}
       {/* <span className="absolute inline-flex h-full w-full rounded-full bg-[#25D366] opacity-60 animate-ping" /> */}
 
