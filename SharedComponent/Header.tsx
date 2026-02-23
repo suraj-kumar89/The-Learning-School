@@ -1,5 +1,5 @@
 import Link from "next/link";
-
+const assetPath = '/tef-trial-india-clear-tef-in-120-days';
 export default function Header() {
   return (
     <header className="w-full flex justify-center bg-[#FBF4D1] py-4 sm:py-5 lg:py-6">
@@ -10,7 +10,7 @@ export default function Header() {
         {/* LOGO */}
         <div className="shrink-0 aspect-square w-12 h-12 sm:w-16 sm:h-16 lg:w-[95px] lg:h-[95px]">
           <img
-            src="/logo.svg"
+            src={`${assetPath}/logo.svg`}
             alt="Logo"
             className="w-full h-full object-contain"
           />

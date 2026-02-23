@@ -1,5 +1,5 @@
 "use client";
-
+const assetPath = '/tef-trial-india-clear-tef-in-120-days';
 import { useRef, useState } from "react";
 
 /* ---------- TYPES ---------- */
@@ -19,14 +19,14 @@ export default function Testimonials() {
 
   /* ---------- DATA ---------- */
   const testimonials: Testimonial[] = [
-    { name: "Prisha Kotiyal", video: "/testimonials/video1.mp4", rating: 5 },
-    { name: "Rajshree Banerjee", video: "/testimonials/video2.mp4", rating: 5 },
-    { name: "Vedanshi Joshi", video: "/testimonials/video3.mp4", rating: 5 },
-    { name: "Prathyaksh Mini Prabhash", video: "/testimonials/video4.mp4", rating: 5 },
-    { name: "Suhani", video: "/testimonials/video5.mp4", rating: 5 },
-    { name: "Anshul", video: "/testimonials/video6.mp4", rating: 5 },
-    { name: "Arunoday", video: "/testimonials/video7.mp4", rating: 5 },
-    { name: "Prathima", video: "/testimonials/video8.mp4", rating: 5 },
+    { name: "Prisha Kotiyal", video: `${assetPath}/testimonials/video1.mp4`, rating: 5 },
+    { name: "Rajshree Banerjee", video: `${assetPath}/testimonials/video2.mp4`, rating: 5 },
+    { name: "Vedanshi Joshi", video: `${assetPath}/testimonials/video3.mp4`, rating: 5 },
+    { name: "Prathyaksh Mini Prabhash", video: `${assetPath}/testimonials/video4.mp4`, rating: 5 },
+    { name: "Suhani", video: `${assetPath}/testimonials/video5.mp4`, rating: 5 },
+    { name: "Anshul", video: `${assetPath}/testimonials/video6.mp4`, rating: 5 },
+    { name: "Arunoday", video: `${assetPath}/testimonials/video7.mp4`, rating: 5 },
+    { name: "Prathima", video: `${assetPath}/testimonials/video8.mp4`, rating: 5 },
   ];
 
   /* ---------- PLAY / PAUSE ---------- */

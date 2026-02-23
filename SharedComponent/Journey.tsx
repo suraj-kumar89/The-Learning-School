@@ -1,10 +1,10 @@
 import Link from "next/link";
-
+const assetPath = '/tef-trial-india-clear-tef-in-120-days';
 export default function Journey() {
   const stages = [
     {
       number: "01",
-      icon: "/journey/icon1.svg",
+      icon: `${assetPath}/journey/icon1.svg`,
       title: "Foundation Stage",
       border: "border-[#A88E0A]",
       textColor: "text-[#A88E0A]",
@@ -18,7 +18,7 @@ export default function Journey() {
     },
     {
       number: "02",
-      icon: "/journey/icon2.svg",
+      icon: `${assetPath}/journey/icon2.svg`,
       title: "Intermediate Stage",
       border: "border-[#1F75AF]",
       textColor: "text-[#1F75AF]",
@@ -33,7 +33,7 @@ export default function Journey() {
     },
     {
       number: "03",
-      icon: "/journey/icon3.svg",
+      icon: `${assetPath}/journey/icon3.svg`,
       title: "Advanced Stage",
       border: "border-[#F04444]",
       textColor: "text-[#F04444]",

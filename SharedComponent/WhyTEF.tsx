@@ -1,12 +1,14 @@
+const assetPath = '/tef-trial-india-clear-tef-in-120-days';
+
 export default function WhyTEF() {
   const features = [
-    { icon: "/whyTEF/icon1.svg", text: "120-Day structured roadmap to become TEF-ready" },
-    { icon: "/whyTEF/icon2.svg", text: "TEF-focused curriculum. Not general French." },
-    { icon: "/whyTEF/icon3.svg", text: "Clear understanding of the scoring system and exam pattern" },
-    { icon: "/whyTEF/icon4.svg", text: "Level-based batches so you don’t waste time" },
-    { icon: "/whyTEF/icon5.svg", text: "Flexible weekday and weekend options" },
-    { icon: "/whyTEF/icon6.svg", text: "Live classes with real speaking correction" },
-    { icon: "/whyTEF/icon7.svg", text: "Certified trainers with 15+ years of experience" },
+    { icon: `${assetPath}/whyTEF/icon1.svg`, text: "120-Day structured roadmap to become TEF-ready" },
+    { icon: `${assetPath}/whyTEF/icon2.svg`, text: "TEF-focused curriculum. Not general French." },
+    { icon: `${assetPath}/whyTEF/icon3.svg`, text: "Clear understanding of the scoring system and exam pattern" },
+    { icon: `${assetPath}/whyTEF/icon4.svg`, text: "Level-based batches so you don’t waste time" },
+    { icon: `${assetPath}/whyTEF/icon5.svg`, text: "Flexible weekday and weekend options" },
+    { icon: `${assetPath}/whyTEF/icon6.svg`, text: "Live classes with real speaking correction" },
+    { icon: `${assetPath}/whyTEF/icon7.svg`, text: "Certified trainers with 15+ years of experience" },
   ];
 
   return (

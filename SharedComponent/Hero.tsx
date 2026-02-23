@@ -1,5 +1,5 @@
 import Link from "next/link";
-
+const assetPath = '/tef-trial-india-clear-tef-in-120-days';
 export default function Hero() {
   return (
     <section className="relative w-full bg-[#FBF4D1] flex justify-center items-start overflow-hidden">
@@ -60,14 +60,14 @@ export default function Hero() {
 
           {/* HERO IMAGE */}
           <img
-            src="/hero/heroImage.svg"
+            src={`${assetPath}/hero/heroImage.svg`}
             alt="Student"
             className="w-full h-auto object-contain"
           />
 
           {/* FLOATING ICON */}
           <img
-            src="/hero/heroicon.svg"
+            src={`${assetPath}/hero/heroicon.svg`}
             alt="stats icon"
             className="absolute top-[10%] right-[8%] w-7 sm:w-9 md:w-12"
           />
@@ -75,7 +75,7 @@ export default function Hero() {
           {/* BADGE 1 */}
           <div className="absolute top-[38%] left-0 sm:left-[-5%] flex px-3 sm:px-4 py-2 items-center gap-3 rounded-xl bg-white/70 backdrop-blur-md font-display shadow-md">
             <img
-              src="/hero/icon1.svg"
+              src={`${assetPath}/hero/icon1.svg`}
               alt="chart"
               className="w-7 sm:w-9 md:w-10"
             />
@@ -92,7 +92,7 @@ export default function Hero() {
           {/* BADGE 2 */}
           <div className="absolute bottom-[20%] right-0 sm:right-[-5%] flex px-3 sm:px-4 py-2 items-center gap-3 rounded-xl bg-white/70 backdrop-blur-md font-display shadow-md">
             <img
-              src="/hero/icon2.svg"
+              src={`${assetPath}/hero/icon2.svg`}
               alt="flash"
               className="w-7 sm:w-9 md:w-10"
             />

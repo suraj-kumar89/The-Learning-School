@@ -1,7 +1,9 @@
+
+const assetPath = '/tef-trial-india-clear-tef-in-120-days';
 export default function TrialSection() {
   const cards = [
     {
-      icon: "/trail/icon1.svg",
+      icon: `${assetPath}/trail/icon1.svg`,
       title: "Level Clarity",
       points: [
         "Understanding A1, A2, B1 & B2 in the context of TEF",
@@ -11,7 +13,7 @@ export default function TrialSection() {
       dark: false,
     },
     {
-      icon: "/trail/icon2.svg",
+      icon: `${assetPath}/trail/icon2.svg`,
       title: "Complete TEF Strategy",
       points: [
         "Complete exam strategy for Listening, Reading, Writing & Speaking",
@@ -21,7 +23,7 @@ export default function TrialSection() {
       dark: false,
     },
     {
-      icon: "/trail/icon3.svg",
+      icon: `${assetPath}/trail/icon3.svg`,
       title: "How We Teach",
       points: [
         "Live interactive session with real-time explanation",

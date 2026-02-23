@@ -1,13 +1,13 @@
 import Link from "next/link";
-
+const assetPath = '/tef-trial-india-clear-tef-in-120-days';
 export default function Tutors() {
   const tutors = [
-    { name: "Riya Mahendru", image: "/tutor/tutor1.svg" },
-    { name: "Nidhi Gupta", image: "/tutor/tutor5.svg" },
-    { name: "Mokshika", image: "/tutor/tutor4.svg" },
-    { name: "Aruneshwar", image: "/tutor/tutor3.svg" },
-    { name: "Kashish", image: "/tutor/tutor2.svg" },
-    { name: "Tanya Singh", image: "/tutor/tutor6.svg" },
+    { name: "Riya Mahendru", image: `${assetPath}/tutor/tutor1.svg` },
+    { name: "Nidhi Gupta", image: `${assetPath}/tutor/tutor5.svg` },
+    { name: "Mokshika", image: `${assetPath}/tutor/tutor4.svg` },
+    { name: "Aruneshwar", image: `${assetPath}/tutor/tutor3.svg` },
+    { name: "Kashish", image: `${assetPath}/tutor/tutor2.svg` },
+    { name: "Tanya Singh", image: `${assetPath}/tutor/tutor6.svg` },
   ];
 
   // duplicate for infinite loop

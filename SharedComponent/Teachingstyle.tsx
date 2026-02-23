@@ -1,23 +1,25 @@
+const assetPath = '/tef-trial-india-clear-tef-in-120-days';
+
 export default function TeachingStyle() {
   const styles = [
     {
-      icon: "/teaching/icon1.svg",
+      icon: `${assetPath}/teaching/icon1.svg`,
       text: "Structured lessons. No random topics.",
     },
     {
-      icon: "/teaching/icon2.svg",
+      icon: `${assetPath}/teaching/icon2.svg`,
       text: "Live speaking correction during class",
     },
     {
-      icon: "/teaching/icon3.svg",
+      icon: `${assetPath}/teaching/icon3.svg`,
       text: "Practical exam-based simulations",
     },
     {
-      icon: "/teaching/icon4.svg",
+      icon: `${assetPath}/teaching/icon4.svg`,
       text: "Clear weekly targets and progress tracking",
     },
     {
-      icon: "/teaching/icon5.svg",
+      icon: `${assetPath}/teaching/icon5.svg`,
       text: "Continuous evaluation and performance feedback",
     },
   ];

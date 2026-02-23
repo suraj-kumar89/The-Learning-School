@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useEffect, useState } from "react";
-
+const assetPath = '/tef-trial-india-clear-tef-in-120-days';
 export default function Bottomestrip() {
   const [showStrip, setShowStrip] = useState(false);
 
@@ -27,7 +27,7 @@ export default function Bottomestrip() {
         {/* FEATURES */}
         <div className="bs-features">
           <div className="bs-feature">
-            <img src="/calenderIcon.svg" className="bs-icon" alt="calendar" />
+            <img src={`${assetPath}/calenderIcon.svg`} className="bs-icon" alt="calendar" />
             <div>
               <h4>Daily Batches</h4>
               <p>Morning • Afternoon • Evening</p>
@@ -35,7 +35,7 @@ export default function Bottomestrip() {
           </div>
 
           <div className="bs-feature">
-            <img src="/zoomicon.svg" className="bs-icon" alt="zoom" />
+            <img src={`${assetPath}/zoomicon.svg`} className="bs-icon" alt="zoom" />
             <div>
               <h4>Online</h4>
               <p>Zoom Webinar • 30 Min Session</p>

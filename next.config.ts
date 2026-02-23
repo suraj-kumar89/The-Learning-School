@@ -1,7 +1,7 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+ basePath: '/tef-trial-india-clear-tef-in-120-days',
 };
 
 export default nextConfig;

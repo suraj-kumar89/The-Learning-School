@@ -1,3 +1,5 @@
+const assetPath = '/tef-trial-india-clear-tef-in-120-days';
+
 export default function WhoIsThisFor() {
   const goodFor = [
     "Express Entry applicants preparing for Canada PR",
@@ -36,7 +38,7 @@ export default function WhoIsThisFor() {
 
               <div className="w-12 h-12 sm:w-[3.75rem] sm:h-[3.75rem] flex items-center justify-center">
                 <img
-                  src="/whoisthis/icon1.svg"
+                  src={`${assetPath}/whoisthis/icon1.svg`}
                   alt="check"
                   className="w-full h-full object-contain"
                 />
@@ -54,7 +56,7 @@ export default function WhoIsThisFor() {
 
                   <div className="w-6 h-6 sm:w-8 sm:h-8 min-w-[1.5rem] sm:min-w-[2rem] flex items-center justify-center flex-shrink-0">
                     <img
-                      src="/whoisthis/icon3.svg"
+                      src={`${assetPath}/whoisthis/icon3.svg`}
                       alt="tick"
                       className="w-full h-full object-contain"
                     />
@@ -76,7 +78,7 @@ export default function WhoIsThisFor() {
 
               <div className="w-12 h-12 sm:w-[3.75rem] sm:h-[3.75rem] flex items-center justify-center">
                 <img
-                  src="/whoisthis/icon2.svg"
+                  src={`${assetPath}/whoisthis/icon2.svg`}
                   alt="cross"
                   className="w-full h-full object-contain"
                 />
@@ -94,7 +96,7 @@ export default function WhoIsThisFor() {
 
                   <div className="w-6 h-6 sm:w-8 sm:h-8 min-w-[1.5rem] sm:min-w-[2rem] flex items-center justify-center flex-shrink-0">
                     <img
-                      src="/whoisthis/icon4.svg"
+                      src={`${assetPath}/whoisthis/icon4.svg`}
                       alt="cross"
                       className="w-full h-full object-contain"
                     />
