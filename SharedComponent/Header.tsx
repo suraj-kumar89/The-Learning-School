@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Header() {
   return (
     <header className="w-full flex justify-center bg-[#FBF4D1] py-4 sm:py-5 lg:py-6">
@@ -15,7 +17,9 @@ export default function Header() {
         </div>
 
         {/* BUTTON */}
-        <button
+        <Link
+          href="https://pages.razorpay.com/tef-india"
+          target="_blank"
           className="
             flex items-center gap-2
             rounded-xl lg:rounded-2xl
@@ -29,7 +33,7 @@ export default function Header() {
           "
         >
           Book a Trial
-        </button>
+        </Link>
 
       </div>
     </header>

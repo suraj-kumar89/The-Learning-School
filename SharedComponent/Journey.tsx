@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Journey() {
   const stages = [
     {
@@ -22,7 +24,7 @@ export default function Journey() {
       textColor: "text-[#1F75AF]",
       tickBg: "bg-[#1F75AF]",
       points: [
-        "B1 level strengthening",
+        "B1 to B2 level strengthening in TEF context",
         "Structured writing formats for TEF",
         "Listening strategy and pattern recognition",
         "Speaking correction with structured responses",
@@ -37,11 +39,11 @@ export default function Journey() {
       textColor: "text-[#F04444]",
       tickBg: "bg-[#F04444]",
       points: [
-        "B2 level refinement for maximum CRS score",
-        "Advanced speaking strategy and mock tests",
-        "Writing structuring for higher band",
-        "Full exam simulations under time pressure",
-        "Final assessment and readiness check",
+        "Advanced TEF preparation for maximum CRS score",
+        "B2 refinement for higher band performance",
+        "Advanced speaking strategy with mock tests",
+        "Writing structuring for higher band answers",
+        "Final exam readiness and assessment",
       ],
     },
   ];
@@ -56,11 +58,15 @@ export default function Journey() {
             Your TEF Preparation <br /> Journey
           </h2>
 
-          <button className="flex shrink-0 px-6 py-3 sm:px-[1.5rem] sm:py-[1rem] items-center gap-[0.5rem] rounded-[3.875rem] bg-[#E9C81A] whitespace-nowrap">
+          <Link
+            href="https://pages.razorpay.com/tef-india"
+            target="_blank"
+            className="flex shrink-0 px-6 py-3 sm:px-[1.5rem] sm:py-[1rem] items-center gap-[0.5rem] rounded-[3.875rem] bg-[#E9C81A] whitespace-nowrap"
+          >
             <span className="font-display text-[#211C03] text-sm sm:text-base font-semibold">
               Apply Now and Get 50% OFF
             </span>
-          </button>
+          </Link>
         </div>
 
         {/* STAGE CARDS */}

@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function FinalCTA() {
   return (
     <section className="w-full flex justify-center relative overflow-hidden bg-[#0E3E55] py-18 sm:py-16 md:py-30 lg:py-25">
@@ -27,11 +29,15 @@ export default function FinalCTA() {
         </h2>
 
         {/* CTA BUTTON */}
-        <button className="flex items-center justify-center px-6 sm:px-8 py-3 sm:py-4 rounded-full bg-[#F2C811] hover:opacity-90 transition">
+        <Link
+          href="https://pages.razorpay.com/tef-india"
+          target="_blank"
+          className="flex items-center justify-center px-6 sm:px-8 py-3 sm:py-4 rounded-full bg-[#F2C811] hover:opacity-90 transition"
+        >
           <span className="font-display text-[#211C03] text-sm sm:text-base md:text-[1.25rem] font-bold">
             Apply Now & Get 50% OFF
           </span>
-        </button>
+        </Link >
 
         {/* SUBTEXT */}
         <p className="text-white/80 text-[0.65rem] sm:text-[0.75rem] tracking-[0.2em] uppercase">

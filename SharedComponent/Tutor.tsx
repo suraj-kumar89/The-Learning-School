@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Tutors() {
   const tutors = [
     { name: "Riya Mahendru", image: "/tutor/tutor1.svg" },
@@ -25,11 +27,15 @@ export default function Tutors() {
             </span>
           </h2>
 
-          <button className="flex shrink-0 px-[2rem] py-[1.25rem] items-center gap-[0.5rem] rounded-[3.875rem] bg-[#E9C81A] whitespace-nowrap">
+          <Link
+            href="https://pages.razorpay.com/tef-india"
+            target="_blank"
+            className="flex shrink-0 px-[2rem] py-[1.25rem] items-center gap-[0.5rem] rounded-[3.875rem] bg-[#E9C81A] whitespace-nowrap"
+          >
             <span className="font-display text-[#211C03] text-[0.9rem] sm:text-[1rem] font-bold leading-[1.71875rem]">
               Apply Now and Get 50% OFF
             </span>
-          </button>
+          </Link>
 
         </div>
 

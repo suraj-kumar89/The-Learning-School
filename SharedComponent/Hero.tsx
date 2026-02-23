@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Hero() {
   return (
     <section className="relative w-full bg-[#FBF4D1] flex justify-center items-start overflow-hidden">
@@ -44,9 +46,13 @@ export default function Hero() {
           </div>
 
           {/* CTA BUTTON */}
-          <button className="mx-auto lg:mx-0 w-fit px-6 md:px-8 py-3 md:py-4 rounded-full bg-[#E9C81A] text-[#211C03] font-display text-sm sm:text-base md:text-lg lg:text-xl font-semibold hover:scale-105 transition">
-            Apply Now and Get 50% OFF
-          </button>
+         <Link
+  href="https://pages.razorpay.com/tef-india"
+  target="_blank"
+  className="mx-auto lg:mx-0 w-fit px-6 md:px-8 py-3 md:py-4 rounded-full bg-[#E9C81A] text-[#211C03] font-display text-sm sm:text-base md:text-lg lg:text-xl font-semibold hover:scale-105 transition inline-block"
+>
+  Apply Now and Get 50% OFF
+</Link>
         </div>
 
         {/* RIGHT IMAGE SECTION */}

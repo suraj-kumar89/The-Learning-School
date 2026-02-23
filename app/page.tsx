@@ -1,3 +1,4 @@
+import Bottomestrip from "@/SharedComponent/BottomStrip";
 import FAQ from "@/SharedComponent/FAQs";
 import FinalCTA from "@/SharedComponent/FinalCTA";
 import Header from "@/SharedComponent/Header";
@@ -24,6 +25,7 @@ export default function Home() {
       <TeachingStyle/>
       <FinalCTA/>
       <FAQ/>
+      <Bottomestrip/>
     </main>
   );
 }
