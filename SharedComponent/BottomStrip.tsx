@@ -27,7 +27,7 @@ export default function Bottomestrip() {
         {/* FEATURES */}
         <div className="bs-features">
           <div className="bs-feature">
-            <img src="/calendericon.svg" className="bs-icon" alt="calendar" />
+            <img src="/calenderIcon.svg" className="bs-icon" alt="calendar" />
             <div>
               <h4>Daily Batches</h4>
               <p>Morning • Afternoon • Evening</p>
