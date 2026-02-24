@@ -38,7 +38,7 @@ export default function Bottomestrip() {
             <img src={`${assetPath}/zoomicon.svg`} className="bs-icon" alt="zoom" />
             <div>
               <h4>Online</h4>
-              <p>Zoom Webinar • 30 Min Session</p>
+              <p>Zoom Webinar • 60 Min Session</p>
             </div>
           </div>
         </div>
