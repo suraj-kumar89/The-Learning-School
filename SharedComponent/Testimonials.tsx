@@ -19,7 +19,7 @@ export default function Testimonials() {
 
   /* ---------- DATA ---------- */
   const testimonials: Testimonial[] = [
-    { name: "Prisha Kotiyal", video: `${assetPath}/testimonials/video1.mp4`, rating: 5 },
+    { name: "Prisha Kotiyal", video: `${assetPath}/testimonials/vd1.mp4`, rating: 5 },
     { name: "Rajshree Banerjee", video: `${assetPath}/testimonials/video2.mp4`, rating: 5 },
     { name: "Vedanshi Joshi", video: `${assetPath}/testimonials/video3.mp4`, rating: 5 },
     { name: "Prathyaksh Mini Prabhash", video: `${assetPath}/testimonials/video4.mp4`, rating: 5 },
