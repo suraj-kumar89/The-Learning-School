@@ -43,11 +43,11 @@ export default function TrialSection() {
         <div className="max-w-[900px] flex flex-col items-center text-center gap-4 sm:gap-6">
 
           <h2 className="font-display text-black text-[1.8rem] sm:text-[2.2rem] md:text-[2.75rem] font-bold leading-tight md:leading-[3rem] tracking-[-0.02rem]">
-            What Happens <br />Inside the ₹299 Trial
+            What Happens <br />Inside the ₹99 Trial
           </h2>
 
           <p className="font-text text-[#464646] text-sm sm:text-base leading-[160%] tracking-[-0.015rem]">
-            In this ₹299 live session, you don’t just attend a demo.
+            In this ₹99 live session, you don’t just attend a demo.
             <br className="hidden sm:block" />
             You experience how we teach, assess, and build a clear TEF roadmap.
           </p>

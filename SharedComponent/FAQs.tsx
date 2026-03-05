@@ -19,9 +19,9 @@ export default function FAQ() {
         "After the session, you will have clarity on your level and preparation roadmap. If you decide to enrol in the full program, you can proceed with the discounted offer.",
     },
     {
-      question: "Is the ₹299 refundable?",
+      question: "Is the ₹99 refundable?",
       answer:
-        "Yes. The ₹299 trial fee is fully refunded if you enrol in the full TEF program.",
+        "Yes. The ₹99 trial fee is fully refunded if you enrol in the full TEF program.",
     },
     {
       question: "Is the 50% OFF valid for limited time?",
