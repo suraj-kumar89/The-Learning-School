@@ -18,7 +18,7 @@ export default function Header() {
 
         {/* BUTTON */}
         <Link
-          href="https://pages.razorpay.com/tef-india"
+          href="https://rzp.io/rzp/tef-india"
           target="_blank"
           className="
             flex items-center gap-2

@@ -23,7 +23,7 @@ export default function Hero() {
 
           {/* PARAGRAPH */}
           <p className="font-text text-[#464646] text-sm sm:text-base md:text-lg lg:text-xl leading-relaxed max-w-lg mx-auto lg:mx-0">
-            Join our ₹299 Live Trial Class and see exactly how we prepare
+            Join our ₹99 Live Trial Class and see exactly how we prepare
             students to clear TEF confidently.
           </p>
 
@@ -47,7 +47,7 @@ export default function Hero() {
 
           {/* CTA BUTTON */}
          <Link
-  href="https://pages.razorpay.com/tef-india"
+  href="https://rzp.io/rzp/tef-india"
   target="_blank"
   className="mx-auto lg:mx-0 w-fit px-6 md:px-8 py-3 md:py-4 rounded-full bg-[#E9C81A] text-[#211C03] font-display text-sm sm:text-base md:text-lg lg:text-xl font-semibold hover:scale-105 transition inline-block"
 >

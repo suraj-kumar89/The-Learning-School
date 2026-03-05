@@ -59,7 +59,7 @@ export default function Journey() {
           </h2>
 
           <Link
-            href="https://pages.razorpay.com/tef-india"
+            href="https://rzp.io/rzp/tef-india"
             target="_blank"
             className="flex shrink-0 px-6 py-3 sm:px-[1.5rem] sm:py-[1rem] items-center gap-[0.5rem] rounded-[3.875rem] bg-[#E9C81A] whitespace-nowrap"
           >

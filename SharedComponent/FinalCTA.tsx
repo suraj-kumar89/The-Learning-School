@@ -30,7 +30,7 @@ export default function FinalCTA() {
 
         {/* CTA BUTTON */}
         <Link
-          href="https://pages.razorpay.com/tef-india"
+          href="https://rzp.io/rzp/tef-india"
           target="_blank"
           className="flex items-center justify-center px-6 sm:px-8 py-3 sm:py-4 rounded-full bg-[#F2C811] hover:opacity-90 transition"
         >

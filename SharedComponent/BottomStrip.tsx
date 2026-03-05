@@ -16,10 +16,10 @@ export default function Bottomestrip() {
       <div className={`bottomstrip-wrapper ${showStrip ? "active" : ""}`}>
         {/* PRICE */}
         <div className="bs-price-section">
-          <div className="bs-price-big">₹299</div>
+          <div className="bs-price-big">₹99</div>
 
           <div className="bs-price-right">
-            <div className="bs-old-price">Rs.2990</div>
+            <div className="bs-old-price">Rs.990</div>
             <div className="bs-discount">90% OFF</div>
           </div>
         </div>
@@ -46,7 +46,7 @@ export default function Bottomestrip() {
         {/* CTA */}
         <button
           className="bs-btn"
-          onClick={() => (window.location.href = "https://pages.razorpay.com/tef-india")}
+          onClick={() => (window.location.href = "https://rzp.io/rzp/tef-india")}
         >
           Book your seat now
         </button>

@@ -28,7 +28,7 @@ export default function Tutors() {
           </h2>
 
           <Link
-            href="https://pages.razorpay.com/tef-india"
+            href="https://rzp.io/rzp/tef-india"
             target="_blank"
             className="flex shrink-0 px-[2rem] py-[1.25rem] items-center gap-[0.5rem] rounded-[3.875rem] bg-[#E9C81A] whitespace-nowrap"
           >
